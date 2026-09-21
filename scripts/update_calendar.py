@@ -9,6 +9,8 @@ from zoneinfo import ZoneInfo
 import requests
 from bs4 import BeautifulSoup
 from icalendar import Calendar
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 SOURCE_ICS_URL = (
     "https://p135-caldav.icloud.com/published/2/"
@@ -28,6 +30,13 @@ PERFBEGIN_RE = re.compile(r"perfbegin=([^\"&]+)")
 
 session = requests.Session()
 session.headers.update(HEADERS)
+retry = Retry(
+    total=4,
+    backoff_factor=3,  # 3s, 6s, 12s, 24s
+    status_forcelist=[429, 500, 502, 503, 504],
+    allowed_methods=["GET"],
+)
+session.mount("https://", HTTPAdapter(max_retries=retry))
 
 
 def fetch_source_calendar() -> Calendar:

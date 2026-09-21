@@ -693,7 +693,7 @@ BEGIN:VEVENT
 SUMMARY:Tady Vary 1 | Milovník\, ne bojovník
 DTSTART;VALUE=DATE:20260923T180000Z
 DTEND;VALUE=DATE:20260923T210000Z
-DTSTAMP:2026-09-14 20:33:54.861140+00:00
+DTSTAMP:2026-09-21 14:49:18.674322+00:00
 UID:B699065C-1645-47E0-BD07-65C73E37A2EC
 SEQUENCE:1
 CREATED:20260827T084658Z
@@ -713,7 +713,7 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  o filmu. Spolu s vámi budou film sledovat diváci v kinech po celé ČR. 
  Speciální atmosféru podpoří úvod přenášený do všech kin.\n\nHla
  vním partnerem je Skupina ČEZ. Partnerem je Canadian Medical.\n
-LAST-MODIFIED:2026-09-14 20:33:54.861140+00:00
+LAST-MODIFIED:2026-09-21 14:49:18.674322+00:00
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
