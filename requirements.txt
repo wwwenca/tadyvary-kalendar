@@ -1,3 +1,2 @@
 requests
 icalendar
-beautifulsoup4

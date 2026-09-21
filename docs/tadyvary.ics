@@ -55,11 +55,11 @@ X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 1 / Joker: Folie À Deux
-DTSTART;VALUE=DATE:20241002
-DTEND;VALUE=DATE:20241003
-DTSTAMP:20240820T095609Z
+DTSTART;VALUE=DATE:20241002T180000Z
+DTEND;VALUE=DATE:20241002T210000Z
+DTSTAMP:2026-09-21 15:19:51.600884+00:00
 UID:0B1218A0-A6CD-42F7-B220-5C2701FC4043
-SEQUENCE:0
+SEQUENCE:1
 CREATED:20240820T095510Z
 DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  šeho kina / Joker: Folie À Deux / režie Todd Philips / 138 minut\n\nJOK
@@ -77,18 +77,18 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  kvělého filmu. Spolu s vámi budou film ve stejnou chvíli sledovat div
  áci po celé ČR. Speciální atmosféru podpoří úvod přenášený do
   všech kin.
-LAST-MODIFIED:20240820T095609Z
+LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
 URL;VALUE=URI:tadyvary.cz
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 4
-DTSTART;VALUE=DATE:20241218
-DTEND;VALUE=DATE:20241219
-DTSTAMP:20241217T082029Z
+DTSTART;VALUE=DATE:20241218T190000Z
+DTEND;VALUE=DATE:20241218T220000Z
+DTSTAMP:2026-09-21 15:19:51.600884+00:00
 UID:14B9A110-5DFF-4706-B582-132DB24ED9DC
-SEQUENCE:0
+SEQUENCE:1
 CREATED:20240820T095940Z
 DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  šeho kina. Snímek bude upřesněn v první polovině září.\n \nTato 
@@ -98,7 +98,7 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  oberci a užijete si předpremiéru skvělého filmu. Spolu s vámi budou 
  film ve stejnou chvíli sledovat diváci po celé ČR. Speciální atmosf
  éru podpoří úvod přenášený do všech kin.
-LAST-MODIFIED:20241217T082029Z
+LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
 URL;VALUE=URI:tadyvary.cz
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
@@ -134,11 +134,11 @@ X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 2 / Obvinění
-DTSTART;VALUE=DATE:20251015
-DTEND;VALUE=DATE:20251016
-DTSTAMP:20250828T061340Z
+DTSTART;VALUE=DATE:20251015T180000Z
+DTEND;VALUE=DATE:20251015T210000Z
+DTSTAMP:2026-09-21 15:19:51.600884+00:00
 UID:29284FC2-D14B-4E3E-B1BF-081656165D67
-SEQUENCE:0
+SEQUENCE:1
 CREATED:20250828T060750Z
 DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  šeho kina / Obvinění / Luca Guadagnino / 139 min.\n\nStrhující psycho
@@ -153,17 +153,17 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  u. Spolu s vámi budou film ve stejnou chvíli sledovat diváci po celé 
  ČR. Speciální atmosféru podpoří úvod přenášený do všech kin.\n
  \nwww.tadyvary.cz
-LAST-MODIFIED:20250828T061339Z
+LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 10
-DTSTART;VALUE=DATE:20250611
-DTEND;VALUE=DATE:20250612
-DTSTAMP:20250204T084536Z
+DTSTART;VALUE=DATE:20250611T180000Z
+DTEND;VALUE=DATE:20250611T210000Z
+DTSTAMP:2026-09-21 15:19:51.600884+00:00
 UID:2A8FFDCC-2730-42BE-BC39-C9437D1D26BA
-SEQUENCE:0
+SEQUENCE:1
 CREATED:20250204T074835Z
 DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  šeho kina. Snímek bude upřesněn v první polovině září.\n \nTato 
@@ -173,7 +173,7 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  oberci a užijete si předpremiéru skvělého filmu. Spolu s vámi budou 
  film ve stejnou chvíli sledovat diváci po celé ČR. Speciální atmosf
  éru podpoří úvod přenášený do všech kin.\n\nwww.tadyvary.cz
-LAST-MODIFIED:20250204T084533Z
+LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
@@ -226,11 +226,11 @@ X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 4 / Citová hodnota
-DTSTART;VALUE=DATE:20251217
-DTEND;VALUE=DATE:20251218
-DTSTAMP:20251216T084232Z
+DTSTART;VALUE=DATE:20251217T190000Z
+DTEND;VALUE=DATE:20251217T220000Z
+DTSTAMP:2026-09-21 15:19:51.600884+00:00
 UID:3913C075-6A18-4E37-9AAB-DFB22E83A7FC
-SEQUENCE:0
+SEQUENCE:1
 CREATED:20250828T061449Z
 DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  šeho kina / Citová hodnota / Joachim Trier / 135 min.\n\nPo veleúspěch
@@ -246,17 +246,17 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  užijete si předpremiéru skvělého filmu. Spolu s vámi budou film ve s
  tejnou chvíli sledovat diváci po celé ČR. Speciální atmosféru podpo
  ří úvod přenášený do všech kin.\n\nwww.tadyvary.cz
-LAST-MODIFIED:20251216T084231Z
+LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 8 / Ptáče
-DTSTART;VALUE=DATE:20250416
-DTEND;VALUE=DATE:20250417
-DTSTAMP:20250204T084459Z
+DTSTART;VALUE=DATE:20250416T180000Z
+DTEND;VALUE=DATE:20250416T210000Z
+DTSTAMP:2026-09-21 15:19:51.600884+00:00
 UID:3AE9DF95-8018-40C4-A5D4-D9398E678B26
-SEQUENCE:0
+SEQUENCE:1
 CREATED:20250204T074524Z
 DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  šeho kina / Ptáče / režie Andrea Arnold / 119 minut\n\nNeobvyklý př
@@ -274,7 +274,7 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  ho filmu. Spolu s vámi budou film sledovat diváci v kinech po celé ČR.
   Speciální atmosféru podpoří úvod přenášený do všech kin.\n\nHl
  avními partnery jsou J&T Banka a Skupina ČEZ.\n\nwww.tadyvary.cz
-LAST-MODIFIED:20250204T084457Z
+LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
@@ -487,11 +487,11 @@ X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 9 / Kapelo\, hraj 
-DTSTART;VALUE=DATE:20250514
-DTEND;VALUE=DATE:20250515
-DTSTAMP:20250513T090946Z
+DTSTART;VALUE=DATE:20250514T180000Z
+DTEND;VALUE=DATE:20250514T210000Z
+DTSTAMP:2026-09-21 15:19:51.600884+00:00
 UID:6B5F3F90-E095-487E-8735-45A7C855924D
-SEQUENCE:0
+SEQUENCE:1
 CREATED:20250204T074808Z
 DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  šeho kina / Kapelo\, hraj / Emmanuel Courcol / 103 min.\n\nThibaut je mez
@@ -508,7 +508,7 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  koberci a užijete si předpremiéru skvělého filmu. Spolu s vámi budou
   film ve stejnou chvíli sledovat diváci po celé ČR. Speciální atmosf
  éru podpoří úvod přenášený do všech kin.\n\nwww.tadyvary.cz 
-LAST-MODIFIED:20250513T090945Z
+LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
@@ -538,11 +538,11 @@ X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 2 | Fjord 
-DTSTART;VALUE=DATE:20261014
-DTEND;VALUE=DATE:20261015
-DTSTAMP:20260827T151214Z
+DTSTART;VALUE=DATE:20261014T180000Z
+DTEND;VALUE=DATE:20261014T210000Z
+DTSTAMP:2026-09-21 15:19:51.600884+00:00
 UID:7BACE536-E8AC-48AC-A8AA-3D5A65A527C1
-SEQUENCE:0
+SEQUENCE:1
 CREATED:20260827T151213Z
 DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  šeho kina.  \nFjord / Cristian Mungiu / 146 minut \nStrhující morá
@@ -560,7 +560,7 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  áci v kinech po celé ČR. Speciální atmosféru podpoří úvod přená
  šený do všech kin.\n\nHlavním partnerem je Skupina ČEZ. Partnerem je 
  Canadian Medical.\n
-LAST-MODIFIED:20260827T151213Z
+LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
@@ -593,11 +593,11 @@ X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 9 / Co nám zbylo z lásky 
-DTSTART;VALUE=DATE:20260506
-DTEND;VALUE=DATE:20260507
-DTSTAMP:20260505T081615Z
+DTSTART;VALUE=DATE:20260506T180000Z
+DTEND;VALUE=DATE:20260506T210000Z
+DTSTAMP:2026-09-21 15:19:51.600884+00:00
 UID:8EE9BDFE-1CE9-4396-8B4F-09B2BD62F8EB
-SEQUENCE:0
+SEQUENCE:1
 CREATED:20251217T160432Z
 DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  šeho kina / Co nám zbylo z lásky / Hlynur Pálmason / 109 min.\n\nNa is
@@ -614,7 +614,7 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  žijete si předpremiéru skvělého filmu. Spolu s vámi budou film sledo
  vat diváci v kinech po celé ČR. Speciální atmosféru podpoří úvod 
  přenášený do všech kin.\n
-LAST-MODIFIED:20260505T081615Z
+LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
@@ -642,11 +642,11 @@ X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 8 / Drama
-DTSTART;VALUE=DATE:20260401
-DTEND;VALUE=DATE:20260402
-DTSTAMP:20251217T160333Z
+DTSTART;VALUE=DATE:20260401T180000Z
+DTEND;VALUE=DATE:20260401T210000Z
+DTSTAMP:2026-09-21 15:19:51.600884+00:00
 UID:9F80DD72-0F41-4219-BCA1-5F1A23BF5134
-SEQUENCE:0
+SEQUENCE:1
 CREATED:20251217T160332Z
 DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  šeho kina / Drama / Kristoffer Borgli \n\nOriginálních autorských film
@@ -662,17 +662,17 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
   užijete si předpremiéru skvělého filmu. Spolu s vámi budou film sle
  dovat diváci v kinech po celé ČR. Speciální atmosféru podpoří úvo
  d přenášený do všech kin.\n
-LAST-MODIFIED:20251217T160332Z
+LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 1 / Jedna bitva za druhou
-DTSTART;VALUE=DATE:20250924
-DTEND;VALUE=DATE:20250925
-DTSTAMP:20250924T085158Z
+DTSTART;VALUE=DATE:20250924T181500Z
+DTEND;VALUE=DATE:20250924T211500Z
+DTSTAMP:2026-09-21 15:19:51.600884+00:00
 UID:AC3D3629-0D4E-435C-9466-ED5C7873101F
-SEQUENCE:0
+SEQUENCE:1
 CREATED:20250820T144608Z
 DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  šeho kina / Jedna bitva za druhou / Paul Thomas Anderson / 161 min.\n\nB
@@ -685,7 +685,7 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  ci a užijete si předpremiéru skvělého filmu. Spolu s vámi budou film
   ve stejnou chvíli sledovat diváci po celé ČR. Speciální atmosféru 
  podpoří úvod přenášený do všech kin.\n\nwww.tadyvary.cz 
-LAST-MODIFIED:20250924T085158Z
+LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
@@ -693,7 +693,7 @@ BEGIN:VEVENT
 SUMMARY:Tady Vary 1 | Milovník\, ne bojovník
 DTSTART;VALUE=DATE:20260923T180000Z
 DTEND;VALUE=DATE:20260923T210000Z
-DTSTAMP:2026-09-21 15:11:43.877318+00:00
+DTSTAMP:2026-09-21 15:19:51.600884+00:00
 UID:B699065C-1645-47E0-BD07-65C73E37A2EC
 SEQUENCE:1
 CREATED:20260827T084658Z
@@ -713,17 +713,17 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  o filmu. Spolu s vámi budou film sledovat diváci v kinech po celé ČR. 
  Speciální atmosféru podpoří úvod přenášený do všech kin.\n\nHla
  vním partnerem je Skupina ČEZ. Partnerem je Canadian Medical.\n
-LAST-MODIFIED:2026-09-21 15:11:43.877318+00:00
+LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 5
-DTSTART;VALUE=DATE:20250108
-DTEND;VALUE=DATE:20250109
-DTSTAMP:20250107T084059Z
+DTSTART;VALUE=DATE:20250108T190000Z
+DTEND;VALUE=DATE:20250108T220000Z
+DTSTAMP:2026-09-21 15:19:51.600884+00:00
 UID:BB8D2F76-E043-48C3-84EE-EC46A7421B4C
-SEQUENCE:0
+SEQUENCE:1
 CREATED:20240820T100000Z
 DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  šeho kina. Snímek bude upřesněn v první polovině září.\n \nTato 
@@ -733,7 +733,7 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  oberci a užijete si předpremiéru skvělého filmu. Spolu s vámi budou 
  film ve stejnou chvíli sledovat diváci po celé ČR. Speciální atmosf
  éru podpoří úvod přenášený do všech kin.
-LAST-MODIFIED:20250107T084058Z
+LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
 URL;VALUE=URI:tadyvary.cz
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
@@ -789,11 +789,11 @@ X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 7 / Nevěsta!
-DTSTART;VALUE=DATE:20260304
-DTEND;VALUE=DATE:20260305
-DTSTAMP:20251230T094537Z
+DTSTART;VALUE=DATE:20260304T190000Z
+DTEND;VALUE=DATE:20260304T220000Z
+DTSTAMP:2026-09-21 15:19:51.600884+00:00
 UID:CEF221FF-D8ED-4524-9FA5-91DE85744BBB
-SEQUENCE:0
+SEQUENCE:1
 CREATED:20251217T160248Z
 DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  šeho kina / Nevěsta! / Maggie Gyllenhaal \n\nHerečka a režisérka nomi
@@ -810,17 +810,17 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  miéru skvělého filmu. Spolu s vámi budou film sledovat diváci v kinec
  h po celé ČR. Speciální atmosféru podpoří úvod přenášený do v
  šech kin.\n
-LAST-MODIFIED:20251230T094531Z
+LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 6 / Poberta 
-DTSTART;VALUE=DATE:20260211
-DTEND;VALUE=DATE:20260212
-DTSTAMP:20251230T094545Z
+DTSTART;VALUE=DATE:20260211T190000Z
+DTEND;VALUE=DATE:20260211T220000Z
+DTSTAMP:2026-09-21 15:19:51.600884+00:00
 UID:E62F6E3C-7A1A-4F89-8108-4BD6845FB22B
-SEQUENCE:0
+SEQUENCE:1
 CREATED:20251217T155924Z
 DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  šeho kina / Poberta / Ondřej Hudeček\n\n“Covidový western” Ondřej
@@ -838,17 +838,17 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  ém koberci a užijete si předpremiéru skvělého filmu. Spolu s vámi b
  udou film sledovat diváci v kinech po celé ČR. Speciální atmosféru p
  odpoří úvod přenášený do všech kin.\n
-LAST-MODIFIED:20251230T094540Z
+LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 7 / Navždy s vámi
-DTSTART;VALUE=DATE:20250312
-DTEND;VALUE=DATE:20250313
-DTSTAMP:20250204T084453Z
+DTSTART;VALUE=DATE:20250312T190000Z
+DTEND;VALUE=DATE:20250312T220000Z
+DTSTAMP:2026-09-21 15:19:51.600884+00:00
 UID:F8B7D5BB-C20A-40C8-BDFD-0738B844DDA6
-SEQUENCE:0
+SEQUENCE:1
 CREATED:20250204T074216Z
 DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  šeho kina / Navždy s vámi (I'm Still Here) / režie Walter Salles / 135
@@ -866,7 +866,7 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  ámi budou film sledovat diváci v kinech po celé ČR. Speciální atmosf
  éru podpoří úvod přenášený do všech kin.\n\nHlavními partnery js
  ou J&T Banka a Skupina ČEZ.\n\nwww.tadyvary.cz
-LAST-MODIFIED:20250204T084450Z
+LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT

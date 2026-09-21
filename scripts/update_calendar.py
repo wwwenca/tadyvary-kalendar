@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
 """Doplní časy promítání Tady Vary z programu kina35.ifp.cz do festivalového kalendáře."""
 import re
-import time
-from datetime import datetime, timedelta, timezone
-from urllib.parse import unquote
+import time as time_module
+from datetime import date, datetime, time, timedelta, timezone
 from zoneinfo import ZoneInfo
 
 import requests
-from bs4 import BeautifulSoup
 from icalendar import Calendar
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
@@ -16,7 +14,11 @@ SOURCE_ICS_URL = (
     "https://p135-caldav.icloud.com/published/2/"
     "MTMxMDA5NjY5NTEzMTAwOdhcg2MYG56bhwsEopP1dmHEGHwwMclRVaJXIAEpGRe1OJrqaeWjmqTBWVItYipUhKgtza_k3R5cz3TX9JQKYtQ"
 )
-PROGRAM_URL = "https://kino35.ifp.cz/cz/program/"
+# Interní AJAX endpoint kina pro rozpis konkrétního dne (viz /js/script-2.2023.js,
+# funkce calendar_render/calendar_events). Vrací i dny, které ještě nejsou vidět
+# v krátkém seznamu "nejbližších promítání" na homepage.
+DAY_API_URL = "https://kino35.ifp.cz/sys/services/calendar.php"
+DAY_API_REFERER = "https://kino35.ifp.cz/cz/"
 OUTPUT_PATH = "docs/tadyvary.ics"
 PRAGUE = ZoneInfo("Europe/Prague")
 DEFAULT_DURATION = timedelta(hours=3)
@@ -25,8 +27,8 @@ HEADERS = {
 }
 
 TADY_VARY_RE = re.compile(r"^Tady Vary (\d+)")
-SLUG_RE = re.compile(r"/program/(event\d+-tady-vary-(\d+)-[^\"'#?]+)")
-PERFBEGIN_RE = re.compile(r"perfbegin=([^\"&]+)")
+# Číslo v názvu je nepovinné - starší záznamy na kino35 mívají jen "TADY VARY | <film>".
+DAY_EVENT_NAME_RE = re.compile(r"^TADY VARY\s*(\d+)?", re.IGNORECASE)
 
 session = requests.Session()
 session.headers.update(HEADERS)
@@ -45,36 +47,29 @@ def fetch_source_calendar() -> Calendar:
     return Calendar.from_ical(resp.text)
 
 
-def fetch_event_showtimes(event_url: str) -> list[datetime]:
-    resp = session.get(event_url, timeout=30)
+def fetch_kino35_showtime(number: int, event_date: date) -> datetime | None:
+    """Zeptá se denního rozpisu kina na konkrétní datum a vrátí čas "Tady Vary <number>", pokud ho kino už zveřejnilo."""
+    resp = session.get(
+        DAY_API_URL,
+        params={"l": "cz", "d": event_date.strftime("%Y%m%d")},
+        headers={"X-Requested-With": "XMLHttpRequest", "Referer": DAY_API_REFERER},
+        timeout=30,
+    )
     resp.raise_for_status()
-    times = []
-    for raw in PERFBEGIN_RE.findall(resp.text):
-        try:
-            dt = datetime.strptime(unquote(raw), "%Y-%m-%dT%H:%M:%S")
-        except ValueError:
+    data = resp.json() if resp.text.strip() else None
+    if not isinstance(data, list):
+        return None  # kino ještě pro tenhle den nemá zveřejněný rozpis (např. {"text":"noparams",...})
+
+    for item in data:
+        m = DAY_EVENT_NAME_RE.match(item.get("n", "").strip())
+        if not m:
             continue
-        times.append(dt.replace(tzinfo=PRAGUE))
-    return times
-
-
-def fetch_kino35_showtimes() -> dict[int, list[datetime]]:
-    resp = session.get(PROGRAM_URL, timeout=30)
-    resp.raise_for_status()
-    soup = BeautifulSoup(resp.text, "html.parser")
-
-    showtimes: dict[int, list[datetime]] = {}
-    seen_slugs = set()
-    for link in soup.select('a[href*="/program/event"]'):
-        m = SLUG_RE.search(link.get("href", ""))
-        if not m or m.group(1) in seen_slugs:
-            continue
-        seen_slugs.add(m.group(1))
-        number = int(m.group(2))
-        event_url = f"https://kino35.ifp.cz/cz/program/{m.group(1)}"
-        showtimes.setdefault(number, []).extend(fetch_event_showtimes(event_url))
-        time.sleep(0.5)
-    return showtimes
+        digit = m.group(1)
+        if digit is not None and int(digit) != number:
+            continue  # jiné číslo Tady Vary - shoda jen podle data by nestačila
+        hh, mm = (int(part) for part in item["t"].split(":"))
+        return datetime.combine(event_date, time(hh, mm), tzinfo=PRAGUE)
+    return None
 
 
 def is_all_day(component) -> bool:
@@ -82,7 +77,7 @@ def is_all_day(component) -> bool:
     return dtstart is not None and not hasattr(dtstart.dt, "hour")
 
 
-def enrich(source_cal: Calendar, showtimes: dict[int, list[datetime]]) -> tuple[Calendar, int]:
+def enrich(source_cal: Calendar) -> tuple[Calendar, int]:
     out = Calendar()
     for key, value in source_cal.items():
         out.add(key, value)
@@ -100,10 +95,9 @@ def enrich(source_cal: Calendar, showtimes: dict[int, list[datetime]]) -> tuple[
         if m and is_all_day(component):
             number = int(m.group(1))
             event_date = component["DTSTART"].dt
-            match = next(
-                (t for t in showtimes.get(number, []) if t.date() == event_date),
-                None,
-            )
+            match = fetch_kino35_showtime(number, event_date)
+            time_module.sleep(0.3)
+
             if match:
                 start_utc = match.astimezone(timezone.utc)
                 end_utc = start_utc + DEFAULT_DURATION
@@ -124,8 +118,7 @@ def enrich(source_cal: Calendar, showtimes: dict[int, list[datetime]]) -> tuple[
 
 def main() -> None:
     source_cal = fetch_source_calendar()
-    showtimes = fetch_kino35_showtimes()
-    enriched_cal, updated = enrich(source_cal, showtimes)
+    enriched_cal, updated = enrich(source_cal)
 
     with open(OUTPUT_PATH, "wb") as f:
         f.write(enriched_cal.to_ical())
