@@ -29,6 +29,9 @@ HEADERS = {
 TADY_VARY_RE = re.compile(r"^Tady Vary (\d+)")
 # Číslo v názvu je nepovinné - starší záznamy na kino35 mívají jen "TADY VARY | <film>".
 DAY_EVENT_NAME_RE = re.compile(r"^TADY VARY\s*(\d+)?", re.IGNORECASE)
+# DESCRIPTION obvykle začíná "<Název> / <režisér> / <NNN> min[ut]" - stopáž hledáme
+# jen v úvodu popisu, ať náhodou nechytíme jiné číslo dál v textu.
+DURATION_RE = re.compile(r"(\d{1,3})\s*min", re.IGNORECASE)
 
 session = requests.Session()
 session.headers.update(HEADERS)
@@ -77,6 +80,22 @@ def is_all_day(component) -> bool:
     return dtstart is not None and not hasattr(dtstart.dt, "hour")
 
 
+def extract_duration(description: str) -> timedelta | None:
+    m = DURATION_RE.search(description[:250])
+    if not m:
+        return None
+    return timedelta(minutes=int(m.group(1)))
+
+
+def set_dt(component, name: str, value: datetime) -> None:
+    # Nahradit .dt na existující property nestačí - staré parametry (např. TZID
+    # z původního záznamu) by zůstaly viset vedle nové UTC hodnoty a vznikl by
+    # neplatný zápis. Property je proto potřeba smazat a přidat znovu.
+    if name in component:
+        del component[name]
+    component.add(name, value)
+
+
 def enrich(source_cal: Calendar) -> tuple[Calendar, int]:
     out = Calendar()
     for key, value in source_cal.items():
@@ -92,24 +111,40 @@ def enrich(source_cal: Calendar) -> tuple[Calendar, int]:
 
         summary = str(component.get("SUMMARY", ""))
         m = TADY_VARY_RE.match(summary)
-        if m and is_all_day(component):
-            number = int(m.group(1))
+        if not m:
+            out.add_component(component)
+            continue
+
+        number = int(m.group(1))
+        changed = False
+
+        if is_all_day(component):
             event_date = component["DTSTART"].dt
             match = fetch_kino35_showtime(number, event_date)
             time_module.sleep(0.3)
-
             if match:
-                start_utc = match.astimezone(timezone.utc)
-                end_utc = start_utc + DEFAULT_DURATION
-                component["DTSTART"].dt = start_utc
-                if "DTEND" in component:
-                    component["DTEND"].dt = end_utc
-                else:
-                    component.add("DTEND", end_utc)
-                component["SEQUENCE"] = int(component.get("SEQUENCE", 0)) + 1
-                component["DTSTAMP"] = now_utc
-                component["LAST-MODIFIED"] = now_utc
-                updated += 1
+                set_dt(component, "DTSTART", match.astimezone(timezone.utc))
+                changed = True
+
+        dtstart = component["DTSTART"].dt
+        if hasattr(dtstart, "hour"):  # čas začátku je (teď nebo už dřív) znám
+            dtstart_utc = dtstart.astimezone(timezone.utc)
+            if dtstart.utcoffset() != timedelta(0):
+                set_dt(component, "DTSTART", dtstart_utc)  # sjednotit na UTC formát
+                changed = True
+
+            duration = extract_duration(str(component.get("DESCRIPTION", ""))) or DEFAULT_DURATION
+            end_utc = dtstart_utc + duration
+            current_end = component.get("DTEND")
+            if current_end is None or current_end.dt != end_utc or current_end.dt.utcoffset() != timedelta(0):
+                set_dt(component, "DTEND", end_utc)
+                changed = True
+
+        if changed:
+            component["SEQUENCE"] = int(component.get("SEQUENCE", 0)) + 1
+            component["DTSTAMP"] = now_utc
+            component["LAST-MODIFIED"] = now_utc
+            updated += 1
 
         out.add_component(component)
 

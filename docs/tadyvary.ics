@@ -5,11 +5,11 @@ X-WR-CALNAME:Tady Vary
 X-APPLE-CALENDAR-COLOR:#ff2600
 BEGIN:VEVENT
 SUMMARY:Tady Vary 2 / Umění jíst a milovat
-DTSTART;TZID=Europe/Ljubljana:20231101T200000
-DTEND;TZID=Europe/Ljubljana:20231101T230000
-DTSTAMP:20231101T081134Z
+DTSTART:20231101T190000Z
+DTEND:20231101T211400Z
+DTSTAMP:2026-09-21 15:26:22.431471+00:00
 UID:037E10F4-06C7-4A78-AF2F-F774CFAC02D7
-SEQUENCE:1
+SEQUENCE:2
 CREATED:20230911T125210Z
 DESCRIPTION:režie Anh Hung Tran / 134 min.\n\nProslulý gurmán Dodin hý
  ří neotřelými kulinářskými recepty\, které jeho věrná kuchařka 
@@ -24,18 +24,18 @@ DESCRIPTION:režie Anh Hung Tran / 134 min.\n\nProslulý gurmán Dodin hý
  dpremiéru skvělého filmu. Spolu s vámi budou film ve stejnou chvíli s
  ledovat diváci po celé ČR. Speciální atmosféru podpoří úvod přen
  ášený do všech kin.
-LAST-MODIFIED:20231101T081117Z
+LAST-MODIFIED:2026-09-21 15:26:22.431471+00:00
 LOCATION:tadyvary.cz
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 9 / Priscilla
-DTSTART;TZID=Europe/Ljubljana:20240522T200000
-DTEND;TZID=Europe/Ljubljana:20240522T230000
-DTSTAMP:20240521T182941Z
+DTSTART:20240522T180000Z
+DTEND:20240522T195300Z
+DTSTAMP:2026-09-21 15:26:22.431471+00:00
 UID:03DEF239-4816-47D9-A751-4022C06E7F7B
-SEQUENCE:0
+SEQUENCE:1
 CREATED:20230918T115731Z
 DESCRIPTION:režie Sofia Coppola / 113 min \nKdyž se dospívající Pri
  scilla na večírku seznámí s Elvisem Presleym\, z krále rock'n'rollu s
@@ -48,16 +48,16 @@ DESCRIPTION:režie Sofia Coppola / 113 min \nKdyž se dospívající Pri
  m koberci a užijete si předpremiéru skvělého filmu. Spolu s vámi bud
  ou film ve stejnou chvíli sledovat diváci po celé ČR. Speciální atmo
  sféru podpoří úvod přenášený do všech kin.
-LAST-MODIFIED:20240103T152807Z
+LAST-MODIFIED:2026-09-21 15:26:22.431471+00:00
 LOCATION:tadyvary.cz
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 1 / Joker: Folie À Deux
-DTSTART;VALUE=DATE:20241002T180000Z
-DTEND;VALUE=DATE:20241002T210000Z
-DTSTAMP:2026-09-21 15:19:51.600884+00:00
+DTSTART:20241002T180000Z
+DTEND:20241002T201800Z
+DTSTAMP:2026-09-21 15:26:22.431471+00:00
 UID:0B1218A0-A6CD-42F7-B220-5C2701FC4043
 SEQUENCE:1
 CREATED:20240820T095510Z
@@ -77,16 +77,16 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  kvělého filmu. Spolu s vámi budou film ve stejnou chvíli sledovat div
  áci po celé ČR. Speciální atmosféru podpoří úvod přenášený do
   všech kin.
-LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
+LAST-MODIFIED:2026-09-21 15:26:22.431471+00:00
 URL;VALUE=URI:tadyvary.cz
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 4
-DTSTART;VALUE=DATE:20241218T190000Z
-DTEND;VALUE=DATE:20241218T220000Z
-DTSTAMP:2026-09-21 15:19:51.600884+00:00
+DTSTART:20241218T190000Z
+DTEND:20241218T220000Z
+DTSTAMP:2026-09-21 15:26:22.431471+00:00
 UID:14B9A110-5DFF-4706-B582-132DB24ED9DC
 SEQUENCE:1
 CREATED:20240820T095940Z
@@ -98,7 +98,7 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  oberci a užijete si předpremiéru skvělého filmu. Spolu s vámi budou 
  film ve stejnou chvíli sledovat diváci po celé ČR. Speciální atmosf
  éru podpoří úvod přenášený do všech kin.
-LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
+LAST-MODIFIED:2026-09-21 15:26:22.431471+00:00
 URL;VALUE=URI:tadyvary.cz
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
@@ -134,9 +134,9 @@ X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 2 / Obvinění
-DTSTART;VALUE=DATE:20251015T180000Z
-DTEND;VALUE=DATE:20251015T210000Z
-DTSTAMP:2026-09-21 15:19:51.600884+00:00
+DTSTART:20251015T180000Z
+DTEND:20251015T201900Z
+DTSTAMP:2026-09-21 15:26:22.431471+00:00
 UID:29284FC2-D14B-4E3E-B1BF-081656165D67
 SEQUENCE:1
 CREATED:20250828T060750Z
@@ -153,15 +153,15 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  u. Spolu s vámi budou film ve stejnou chvíli sledovat diváci po celé 
  ČR. Speciální atmosféru podpoří úvod přenášený do všech kin.\n
  \nwww.tadyvary.cz
-LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
+LAST-MODIFIED:2026-09-21 15:26:22.431471+00:00
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 10
-DTSTART;VALUE=DATE:20250611T180000Z
-DTEND;VALUE=DATE:20250611T210000Z
-DTSTAMP:2026-09-21 15:19:51.600884+00:00
+DTSTART:20250611T180000Z
+DTEND:20250611T210000Z
+DTSTAMP:2026-09-21 15:26:22.431471+00:00
 UID:2A8FFDCC-2730-42BE-BC39-C9437D1D26BA
 SEQUENCE:1
 CREATED:20250204T074835Z
@@ -173,7 +173,7 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  oberci a užijete si předpremiéru skvělého filmu. Spolu s vámi budou 
  film ve stejnou chvíli sledovat diváci po celé ČR. Speciální atmosf
  éru podpoří úvod přenášený do všech kin.\n\nwww.tadyvary.cz
-LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
+LAST-MODIFIED:2026-09-21 15:26:22.431471+00:00
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
@@ -202,11 +202,11 @@ X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 6 / Železní bratři
-DTSTART;TZID=Europe/Ljubljana:20240207T200000
-DTEND;TZID=Europe/Ljubljana:20240207T230000
-DTSTAMP:20240122T115503Z
+DTSTART:20240207T190000Z
+DTEND:20240207T211000Z
+DTSTAMP:2026-09-21 15:26:22.431471+00:00
 UID:36739D6B-D7C7-425D-8D6B-7813E0D36EF3
-SEQUENCE:0
+SEQUENCE:1
 CREATED:20230918T115624Z
 DESCRIPTION:režie Sean Durkin / 130 min\n\nSrdcervoucí příběh o píl
  i\, dřině a bratrské lásce inspirovaný skutečnými událostmi. V rol
@@ -218,7 +218,7 @@ DESCRIPTION:režie Sean Durkin / 130 min\n\nSrdcervoucí příběh o píl
  ilmu. Spolu s vámi budou film ve stejnou chvíli sledovat diváci po cel
  é ČR. Speciální atmosféru podpoří úvod přenášený do všech kin
  .
-LAST-MODIFIED:20240122T115503Z
+LAST-MODIFIED:2026-09-21 15:26:22.431471+00:00
 LOCATION:tadyvary.cz
 URL;VALUE=URI:
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
@@ -226,9 +226,9 @@ X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 4 / Citová hodnota
-DTSTART;VALUE=DATE:20251217T190000Z
-DTEND;VALUE=DATE:20251217T220000Z
-DTSTAMP:2026-09-21 15:19:51.600884+00:00
+DTSTART:20251217T190000Z
+DTEND:20251217T211500Z
+DTSTAMP:2026-09-21 15:26:22.431471+00:00
 UID:3913C075-6A18-4E37-9AAB-DFB22E83A7FC
 SEQUENCE:1
 CREATED:20250828T061449Z
@@ -246,15 +246,15 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  užijete si předpremiéru skvělého filmu. Spolu s vámi budou film ve s
  tejnou chvíli sledovat diváci po celé ČR. Speciální atmosféru podpo
  ří úvod přenášený do všech kin.\n\nwww.tadyvary.cz
-LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
+LAST-MODIFIED:2026-09-21 15:26:22.431471+00:00
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 8 / Ptáče
-DTSTART;VALUE=DATE:20250416T180000Z
-DTEND;VALUE=DATE:20250416T210000Z
-DTSTAMP:2026-09-21 15:19:51.600884+00:00
+DTSTART:20250416T180000Z
+DTEND:20250416T195900Z
+DTSTAMP:2026-09-21 15:26:22.431471+00:00
 UID:3AE9DF95-8018-40C4-A5D4-D9398E678B26
 SEQUENCE:1
 CREATED:20250204T074524Z
@@ -274,17 +274,17 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  ho filmu. Spolu s vámi budou film sledovat diváci v kinech po celé ČR.
   Speciální atmosféru podpoří úvod přenášený do všech kin.\n\nHl
  avními partnery jsou J&T Banka a Skupina ČEZ.\n\nwww.tadyvary.cz
-LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
+LAST-MODIFIED:2026-09-21 15:26:22.431471+00:00
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 3 / Napoleon
-DTSTART;TZID=Europe/Ljubljana:20231122T200000
-DTEND;TZID=Europe/Ljubljana:20231122T230000
-DTSTAMP:20231122T085311Z
+DTSTART:20231122T190000Z
+DTEND:20231122T213800Z
+DTSTAMP:2026-09-21 15:26:22.431471+00:00
 UID:3E0FA062-2E39-458C-BDDF-FE551F10DCCC
-SEQUENCE:0
+SEQUENCE:1
 CREATED:20230911T125913Z
 DESCRIPTION:režie Ridley Scott / 158 min.\n\nEpické drama Ridleyho Scott
  a zachycuje život francouzského císaře Napoleona Bonaparte (Joaquin Ph
@@ -297,18 +297,18 @@ DESCRIPTION:režie Ridley Scott / 158 min.\n\nEpické drama Ridleyho Scott
  i předpremiéru skvělého filmu. Spolu s vámi budou film ve stejnou chv
  íli sledovat diváci po celé ČR. Speciální atmosféru podpoří úvod
   přenášený do všech kin.
-LAST-MODIFIED:20231122T085311Z
+LAST-MODIFIED:2026-09-21 15:26:22.431471+00:00
 LOCATION:tadyvary.cz
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 4 / Láska nebeská
-DTSTART;TZID=Europe/Ljubljana:20231213T200000
-DTEND;TZID=Europe/Ljubljana:20231213T230000
-DTSTAMP:20231213T075357Z
+DTSTART:20231213T190000Z
+DTEND:20231213T211500Z
+DTSTAMP:2026-09-21 15:26:22.431471+00:00
 UID:41BBE22D-465F-4DB1-9EA9-63CD7D3CC24B
-SEQUENCE:0
+SEQUENCE:1
 CREATED:20230918T115416Z
 DESCRIPTION:Love Actually / režie Richard Curtis / 135 min.\n\nLáska neb
  eská s vtipem odhaluje citová vzplanutí i chladnutí v období vánočn
@@ -323,7 +323,7 @@ DESCRIPTION:Love Actually / režie Richard Curtis / 135 min.\n\nLáska neb
  ého filmu. Spolu s vámi budou film ve stejnou chvíli sledovat diváci p
  o celé ČR. Speciální atmosféru podpoří úvod přenášený do všec
  h kin.
-LAST-MODIFIED:20230918T115438Z
+LAST-MODIFIED:2026-09-21 15:26:22.431471+00:00
 LOCATION:tadyvary.cz
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
@@ -342,11 +342,11 @@ X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 10 / Ve jménu cti
-DTSTART;TZID=Europe/Ljubljana:20240612T200000
-DTEND;TZID=Europe/Ljubljana:20240612T230000
-DTSTAMP:20240611T210320Z
+DTSTART:20240612T180000Z
+DTEND:20240612T194100Z
+DTSTAMP:2026-09-21 15:26:22.431471+00:00
 UID:46721E12-D41D-4E1A-B5CA-7A54A819A8EC
-SEQUENCE:0
+SEQUENCE:1
 CREATED:20230918T115740Z
 DESCRIPTION:Une affaire d'honneur / režie Vincent Perez / 101 min\n\nPař
  íž\, 1887. Duel je oficiálně zakázanou\, ale stále běžnou praxí. 
@@ -359,7 +359,7 @@ DESCRIPTION:Une affaire d'honneur / režie Vincent Perez / 101 min\n\nPař
  oberci a užijete si předpremiéru skvělého filmu. Spolu s vámi budou 
  film ve stejnou chvíli sledovat diváci po celé ČR. Speciální atmosf
  éru podpoří úvod přenášený do všech kin.
-LAST-MODIFIED:20240611T210319Z
+LAST-MODIFIED:2026-09-21 15:26:22.431471+00:00
 LOCATION:tadyvary.cz
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 END:VEVENT
@@ -487,9 +487,9 @@ X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 9 / Kapelo\, hraj 
-DTSTART;VALUE=DATE:20250514T180000Z
-DTEND;VALUE=DATE:20250514T210000Z
-DTSTAMP:2026-09-21 15:19:51.600884+00:00
+DTSTART:20250514T180000Z
+DTEND:20250514T194300Z
+DTSTAMP:2026-09-21 15:26:22.431471+00:00
 UID:6B5F3F90-E095-487E-8735-45A7C855924D
 SEQUENCE:1
 CREATED:20250204T074808Z
@@ -508,17 +508,17 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  koberci a užijete si předpremiéru skvělého filmu. Spolu s vámi budou
   film ve stejnou chvíli sledovat diváci po celé ČR. Speciální atmosf
  éru podpoří úvod přenášený do všech kin.\n\nwww.tadyvary.cz 
-LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
+LAST-MODIFIED:2026-09-21 15:26:22.431471+00:00
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 5 / Chudáčci
-DTSTART;TZID=Europe/Ljubljana:20240110T200000
-DTEND;TZID=Europe/Ljubljana:20240110T230000
-DTSTAMP:20240110T100145Z
+DTSTART:20240110T190000Z
+DTEND:20240110T212200Z
+DTSTAMP:2026-09-21 15:26:22.431471+00:00
 UID:737CCAFB-D3FA-4EB3-9174-11821BAD41A3
-SEQUENCE:0
+SEQUENCE:1
 CREATED:20230918T115547Z
 DESCRIPTION:Poor Things / režie Yorgos Lanthimos / 142 min\n\nNeuvěřit
  elný příběh mladé ženy\, kterou geniální vědec přivede zpět k 
@@ -531,16 +531,16 @@ DESCRIPTION:Poor Things / režie Yorgos Lanthimos / 142 min\n\nNeuvěřit
  kina po červeném koberci a užijete si předpremiéru skvělého filmu. 
  Spolu s vámi budou film ve stejnou chvíli sledovat diváci po celé ČR.
   Speciální atmosféru podpoří úvod přenášený do všech kin.\n
-LAST-MODIFIED:20240110T100144Z
+LAST-MODIFIED:2026-09-21 15:26:22.431471+00:00
 LOCATION:tadyvary.cz
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 2 | Fjord 
-DTSTART;VALUE=DATE:20261014T180000Z
-DTEND;VALUE=DATE:20261014T210000Z
-DTSTAMP:2026-09-21 15:19:51.600884+00:00
+DTSTART:20261014T180000Z
+DTEND:20261014T202600Z
+DTSTAMP:2026-09-21 15:26:22.431471+00:00
 UID:7BACE536-E8AC-48AC-A8AA-3D5A65A527C1
 SEQUENCE:1
 CREATED:20260827T151213Z
@@ -560,7 +560,7 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  áci v kinech po celé ČR. Speciální atmosféru podpoří úvod přená
  šený do všech kin.\n\nHlavním partnerem je Skupina ČEZ. Partnerem je 
  Canadian Medical.\n
-LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
+LAST-MODIFIED:2026-09-21 15:26:22.431471+00:00
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
@@ -593,9 +593,9 @@ X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 9 / Co nám zbylo z lásky 
-DTSTART;VALUE=DATE:20260506T180000Z
-DTEND;VALUE=DATE:20260506T210000Z
-DTSTAMP:2026-09-21 15:19:51.600884+00:00
+DTSTART:20260506T180000Z
+DTEND:20260506T194900Z
+DTSTAMP:2026-09-21 15:26:22.431471+00:00
 UID:8EE9BDFE-1CE9-4396-8B4F-09B2BD62F8EB
 SEQUENCE:1
 CREATED:20251217T160432Z
@@ -614,17 +614,17 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  žijete si předpremiéru skvělého filmu. Spolu s vámi budou film sledo
  vat diváci v kinech po celé ČR. Speciální atmosféru podpoří úvod 
  přenášený do všech kin.\n
-LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
+LAST-MODIFIED:2026-09-21 15:26:22.431471+00:00
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 8 / Rivalové
-DTSTART;TZID=Europe/Ljubljana:20240424T200000
-DTEND;TZID=Europe/Ljubljana:20240424T230000
-DTSTAMP:20240424T115539Z
+DTSTART:20240424T180000Z
+DTEND:20240424T210000Z
+DTSTAMP:2026-09-21 15:26:22.431471+00:00
 UID:9A97CDA1-4F78-4DCF-A937-BAEA12D501AC
-SEQUENCE:0
+SEQUENCE:1
 CREATED:20230918T115708Z
 DESCRIPTION:Challengers / režie Luca Guadagnino \n\nZnali se jako teenage
  ři\, teď se znovu utkávají. Stará rivalita ožívá – na tenisovém
@@ -636,15 +636,15 @@ DESCRIPTION:Challengers / režie Luca Guadagnino \n\nZnali se jako teenage
  jete si předpremiéru skvělého filmu. Spolu s vámi budou film ve stejn
  ou chvíli sledovat diváci po celé ČR. Speciální atmosféru podpoří
   úvod přenášený do všech kin.
-LAST-MODIFIED:20240424T115539Z
+LAST-MODIFIED:2026-09-21 15:26:22.431471+00:00
 LOCATION:tadyvary.cz
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 8 / Drama
-DTSTART;VALUE=DATE:20260401T180000Z
-DTEND;VALUE=DATE:20260401T210000Z
-DTSTAMP:2026-09-21 15:19:51.600884+00:00
+DTSTART:20260401T180000Z
+DTEND:20260401T210000Z
+DTSTAMP:2026-09-21 15:26:22.431471+00:00
 UID:9F80DD72-0F41-4219-BCA1-5F1A23BF5134
 SEQUENCE:1
 CREATED:20251217T160332Z
@@ -662,15 +662,15 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
   užijete si předpremiéru skvělého filmu. Spolu s vámi budou film sle
  dovat diváci v kinech po celé ČR. Speciální atmosféru podpoří úvo
  d přenášený do všech kin.\n
-LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
+LAST-MODIFIED:2026-09-21 15:26:22.431471+00:00
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 1 / Jedna bitva za druhou
-DTSTART;VALUE=DATE:20250924T181500Z
-DTEND;VALUE=DATE:20250924T211500Z
-DTSTAMP:2026-09-21 15:19:51.600884+00:00
+DTSTART:20250924T181500Z
+DTEND:20250924T205600Z
+DTSTAMP:2026-09-21 15:26:22.431471+00:00
 UID:AC3D3629-0D4E-435C-9466-ED5C7873101F
 SEQUENCE:1
 CREATED:20250820T144608Z
@@ -685,15 +685,15 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  ci a užijete si předpremiéru skvělého filmu. Spolu s vámi budou film
   ve stejnou chvíli sledovat diváci po celé ČR. Speciální atmosféru 
  podpoří úvod přenášený do všech kin.\n\nwww.tadyvary.cz 
-LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
+LAST-MODIFIED:2026-09-21 15:26:22.431471+00:00
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 1 | Milovník\, ne bojovník
-DTSTART;VALUE=DATE:20260923T180000Z
-DTEND;VALUE=DATE:20260923T210000Z
-DTSTAMP:2026-09-21 15:19:51.600884+00:00
+DTSTART:20260923T180000Z
+DTEND:20260923T194800Z
+DTSTAMP:2026-09-21 15:26:22.431471+00:00
 UID:B699065C-1645-47E0-BD07-65C73E37A2EC
 SEQUENCE:1
 CREATED:20260827T084658Z
@@ -713,15 +713,15 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  o filmu. Spolu s vámi budou film sledovat diváci v kinech po celé ČR. 
  Speciální atmosféru podpoří úvod přenášený do všech kin.\n\nHla
  vním partnerem je Skupina ČEZ. Partnerem je Canadian Medical.\n
-LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
+LAST-MODIFIED:2026-09-21 15:26:22.431471+00:00
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 5
-DTSTART;VALUE=DATE:20250108T190000Z
-DTEND;VALUE=DATE:20250108T220000Z
-DTSTAMP:2026-09-21 15:19:51.600884+00:00
+DTSTART:20250108T190000Z
+DTEND:20250108T220000Z
+DTSTAMP:2026-09-21 15:26:22.431471+00:00
 UID:BB8D2F76-E043-48C3-84EE-EC46A7421B4C
 SEQUENCE:1
 CREATED:20240820T100000Z
@@ -733,18 +733,18 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  oberci a užijete si předpremiéru skvělého filmu. Spolu s vámi budou 
  film ve stejnou chvíli sledovat diváci po celé ČR. Speciální atmosf
  éru podpoří úvod přenášený do všech kin.
-LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
+LAST-MODIFIED:2026-09-21 15:26:22.431471+00:00
 URL;VALUE=URI:tadyvary.cz
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 7 / Panenky na útěku
-DTSTART;TZID=Europe/Ljubljana:20240313T200000
-DTEND;TZID=Europe/Ljubljana:20240313T230000
-DTSTAMP:20240103T152548Z
+DTSTART:20240313T190000Z
+DTEND:20240313T202400Z
+DTSTAMP:2026-09-21 15:26:22.431471+00:00
 UID:C496382E-6FBC-47E4-B55E-31F47B322E5B
-SEQUENCE:0
+SEQUENCE:1
 CREATED:20230918T115637Z
 DESCRIPTION:Drive-Away Dolls / režie Ethan Coen / 84 min.\n\nDvě holky\,
   které potřebují změnu\, a banda gangsterů\, která potřebuje kufr\,
@@ -756,18 +756,18 @@ DESCRIPTION:Drive-Away Dolls / režie Ethan Coen / 84 min.\n\nDvě holky\,
  ém koberci a užijete si předpremiéru skvělého filmu. Spolu s vámi b
  udou film ve stejnou chvíli sledovat diváci po celé ČR. Speciální at
  mosféru podpoří úvod přenášený do všech kin.
-LAST-MODIFIED:20240103T152547Z
+LAST-MODIFIED:2026-09-21 15:26:22.431471+00:00
 LOCATION:tadyvary.cz
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 1 / Anatomie pádu
-DTSTART;TZID=Europe/Ljubljana:20231018T200000
-DTEND;TZID=Europe/Ljubljana:20231018T230000
-DTSTAMP:20231018T075907Z
+DTSTART:20231018T180000Z
+DTEND:20231018T203300Z
+DTSTAMP:2026-09-21 15:26:22.431471+00:00
 UID:C8E8C2AE-69D2-4F0B-8B3C-16076BF4CDF4
-SEQUENCE:1
+SEQUENCE:2
 CREATED:20230911T125203Z
 DESCRIPTION:režie Justine Triet / 153 min.\n\nÚspěšná spisovatelka Sa
  ndra (Sandra Hüller) žije se svým manželem Samuelem a jedenáctiletým
@@ -782,16 +782,16 @@ DESCRIPTION:režie Justine Triet / 153 min.\n\nÚspěšná spisovatelka Sa
   a užijete si předpremiéru skvělého filmu. Spolu s vámi budou film v
  e stejnou chvíli sledovat diváci po celé ČR. Speciální atmosféru po
  dpoří úvod přenášený do všech kin.
-LAST-MODIFIED:20231018T075907Z
+LAST-MODIFIED:2026-09-21 15:26:22.431471+00:00
 LOCATION:tadyvary.cz
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 7 / Nevěsta!
-DTSTART;VALUE=DATE:20260304T190000Z
-DTEND;VALUE=DATE:20260304T220000Z
-DTSTAMP:2026-09-21 15:19:51.600884+00:00
+DTSTART:20260304T190000Z
+DTEND:20260304T220000Z
+DTSTAMP:2026-09-21 15:26:22.431471+00:00
 UID:CEF221FF-D8ED-4524-9FA5-91DE85744BBB
 SEQUENCE:1
 CREATED:20251217T160248Z
@@ -810,15 +810,15 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  miéru skvělého filmu. Spolu s vámi budou film sledovat diváci v kinec
  h po celé ČR. Speciální atmosféru podpoří úvod přenášený do v
  šech kin.\n
-LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
+LAST-MODIFIED:2026-09-21 15:26:22.431471+00:00
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 6 / Poberta 
-DTSTART;VALUE=DATE:20260211T190000Z
-DTEND;VALUE=DATE:20260211T220000Z
-DTSTAMP:2026-09-21 15:19:51.600884+00:00
+DTSTART:20260211T190000Z
+DTEND:20260211T220000Z
+DTSTAMP:2026-09-21 15:26:22.431471+00:00
 UID:E62F6E3C-7A1A-4F89-8108-4BD6845FB22B
 SEQUENCE:1
 CREATED:20251217T155924Z
@@ -838,15 +838,15 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  ém koberci a užijete si předpremiéru skvělého filmu. Spolu s vámi b
  udou film sledovat diváci v kinech po celé ČR. Speciální atmosféru p
  odpoří úvod přenášený do všech kin.\n
-LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
+LAST-MODIFIED:2026-09-21 15:26:22.431471+00:00
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tady Vary 7 / Navždy s vámi
-DTSTART;VALUE=DATE:20250312T190000Z
-DTEND;VALUE=DATE:20250312T220000Z
-DTSTAMP:2026-09-21 15:19:51.600884+00:00
+DTSTART:20250312T190000Z
+DTEND:20250312T211500Z
+DTSTAMP:2026-09-21 15:26:22.431471+00:00
 UID:F8B7D5BB-C20A-40C8-BDFD-0738B844DDA6
 SEQUENCE:1
 CREATED:20250204T074216Z
@@ -866,7 +866,7 @@ DESCRIPTION:Časy promítání se liší\, řiďte se prosím programem va
  ámi budou film sledovat diváci v kinech po celé ČR. Speciální atmosf
  éru podpoří úvod přenášený do všech kin.\n\nHlavními partnery js
  ou J&T Banka a Skupina ČEZ.\n\nwww.tadyvary.cz
-LAST-MODIFIED:2026-09-21 15:19:51.600884+00:00
+LAST-MODIFIED:2026-09-21 15:26:22.431471+00:00
 X-APPLE-CREATOR-IDENTITY:com.apple.calendar
 X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
 END:VEVENT
