@@ -17,11 +17,25 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - run: python scripts/update_calendar.py
-      - name: Commit if changed
+      - name: Regenerate, commit and push (retry on race with other pushes)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/tadyvary.ics
-          git diff --cached --quiet || git commit -m "Update showtimes from kino35.ifp.cz"
-          git push
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            git reset --hard origin/main
+            python scripts/update_calendar.py
+            git add docs/tadyvary.ics
+            if git diff --cached --quiet; then
+              echo "No changes to commit."
+              exit 0
+            fi
+            git commit -m "Update showtimes from kino35.ifp.cz"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $i), retrying after resync..."
+            sleep $((RANDOM % 5 + 1))
+          done
+          echo "Failed to push after retries" >&2
+          exit 1
