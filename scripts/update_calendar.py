@@ -36,8 +36,9 @@ DURATION_RE = re.compile(r"(\d{1,3})\s*min", re.IGNORECASE)
 session = requests.Session()
 session.headers.update(HEADERS)
 retry = Retry(
-    total=4,
-    backoff_factor=3,  # 3s, 6s, 12s, 24s
+    total=6,
+    backoff_factor=5,  # 5s, 10s, 20s, 40s, 80s, 160s (pokud server neřekne jinak)
+    respect_retry_after_header=True,  # Apple někdy pošle "Retry-After" - tomu dát přednost
     status_forcelist=[429, 500, 502, 503, 504],
     allowed_methods=["GET"],
 )
@@ -152,7 +153,15 @@ def enrich(source_cal: Calendar) -> tuple[Calendar, int]:
 
 
 def main() -> None:
-    source_cal = fetch_source_calendar()
+    try:
+        source_cal = fetch_source_calendar()
+    except requests.exceptions.RequestException as e:
+        # Zdrojový iCloud kalendář je občas krátkodobě nedostupný (503) - není to
+        # chyba na naší straně a nedá se to ovlivnit. Radši týden přeskočit a
+        # nechat publikovaný .ics beze změny, než celý běh hlásit jako selhání.
+        print(f"Zdrojový kalendář se nepodařilo stáhnout, tento běh přeskočen: {e}")
+        return
+
     enriched_cal, updated = enrich(source_cal)
 
     with open(OUTPUT_PATH, "wb") as f:
